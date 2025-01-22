@@ -1,4 +1,6 @@
-export const CircleMode = require('./lib/modes/CircleMode');
-export const DragCircleMode = require('./lib/modes/DragCircleMode');
-export const DirectMode = require('./lib/modes/DirectModeOverride');
-export const SimpleSelectMode = require('./lib/modes/SimpleSelectModeOverride');
+import CircleMode from './modes/CircleMode';
+import DragCircleMode from './modes/DragCircleMode';
+import DirectMode from './modes/DirectModeOverride';
+import SimpleSelectMode from './modes/SimpleSelectModeOverride';
+
+export { CircleMode, DragCircleMode, DirectMode, SimpleSelectMode };

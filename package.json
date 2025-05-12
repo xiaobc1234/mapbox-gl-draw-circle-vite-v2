@@ -1,7 +1,7 @@
 {
-  "name": "mapbox-gl-draw-circle",
-  "version": "1.1.2",
-  "description": "A module to draw a circle using mapbox-gl-draw",
+  "name": "@cniot/mapbox-gl-draw-circle",
+  "version": "1.2.0",
+  "description": "A module to draw a circle using mapbox-gl-draw, support vite",
   "main": "index",
   "scripts": {
     "test": "jest --all",
